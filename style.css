@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+h2{
+    font-size: 25px;
+}
+body{
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(24, 3, 40);
+}
+.container{
+    position: absolute;
+    top:30%;
+    background-color: rgba(0, 0, 0, 0.424);
+    padding: 50px;
+    border-radius: 20px;
+}
+form{
+    margin: 10px 0 10px 0;
+}
+h2{
+    margin: 10px 0 10px 0;
+}
+#expense-form{
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+input{
+    max-width: fit-content;
+    padding: 4.8px;
+    color: black;
+    font-weight: 530;
+}
+input::placeholder{
+    color: rgb(101, 99, 99);
+}
+#add-btn{
+    max-width:fit-content;
+    padding: 4.5px;
+    color: black;
+    font-weight: 540;
+    background-color: burlywood;
+    
+}
+#add-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 200ms;
+}
+#add-btn:not(:hover){
+    transition: 200ms;
+}
+#total-amount{
+    color: goldenrod;
+}
+
+/* --------------------- */
+li{
+    background-color: rgba(63, 17, 73, 0.713);
+    padding: 13px 23px 13px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    margin: 5px;
+}
+span{
+    width: 13vw;
+}
+p{
+    width: 13vw;
+}
+#remove-btn{
+    padding: 5px 15px 5px 15px;
+    color: black;
+    font-weight: 530;
+}
+#remove-btn:hover{
+    background-color: rgba(0, 0, 0, 0.53);
+    color: white;
+}

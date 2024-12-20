@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Expense Tracker</h2>
+        
+        <form action="" id="expense-form">
+            <input type="text" id="expense-name" placeholder="Enter expense" required>
+            <input type="text" id="expense-amount" placeholder="Enter amount" required>
+            <button type="submit" id="add-btn">Add expense</button>
+        </form>
+        
+        <h2>Your Expenses:</h2>
+        <ul id="expense-list">
+            <!-- expenses added here dynamically -->   
+             <!-- <li>
+                movie <span>~Rs.300</span>
+                <button id="remove-btn">Remove</button>
+             </li>       -->
+        </ul>
+
+        <div id="total">
+            <h3>Total Expense: Rs. <span id="total-amount">0.00</span></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
